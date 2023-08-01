@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #F7F6EE;
+
+} 
+#nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #F7F6EE;
+    padding: 0 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}
+#nav h3 span{
+    font-weight: 1000;
+}
+
+#nav #links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+#nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "Playfair";
+    color: #232323;
+}
+#heading{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(255, 221, 177); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#heading p{
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0px;
+    width: 50%;
+}
+
+#heading h1{
+    font-family: "Playfair";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#heading button{
+    padding: 7px 30px;
+    margin: 5px 0px;
+    border-radius: 15px;
+    background-color: #232323;
+    color: aliceblue;
+
+}
+
+#illus{
+    width: 100%;
+    overflow: hidden;
+}
+#illus img{
+    width: 100%;
+}
+
+/* #illus svg{
+    font-style: italic;
+    vertical-align: middle;
+    max-width: 100%;
+} */
+
+#details{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+#details #left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2px;
+    width: 40%;
+    /* border-right: 2px solid black; */
+    
+}
+
+#left h1{
+    /* border-bottom: 2px solid black; */
+    text-align: right;
+    
+}
+
+#left p{
+    width: 40%;
+    text-align: right;
+    font-size: 15px;
+}
+#line{
+    width: 5%;
+    height: 2px;
+    background-color: #000;
+    margin: 30px 0;
+}
+#details #right{
+    width: 52%;
+    border-left: 2px solid black;
+    padding-left: 50px;
+    
+}
+
+#r1, #r2, #r3{
+    display: flex;
+}
+
+#r2{
+    margin: 15px 0px;
+}
+
+#text{
+    margin-left: 5%;
+}
+
+#text p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#r1 img ,#r2 img,#r3 img{
+    width: 4vh;
+    height: 4vh;
+}
+
+#bird{
+    width: 100%;
+    align-items: left;
+    float:right;
+    /* padding-left: 50%;  */
+    /* background-image: url(https://www.snapsound.com/static/img/process-bird.svg); */
+    position: relative;
+    background-repeat: no-repeat;   
+    background-color: #F7F6EE;
+}
+
+ /* @media (min-width: 47.5em) {
+#section>img{
+    background-position:200% 100%,0 50%;
+    background-size: 85% auto,20% auto;
+    margin-top: 5vw
+    }
+} */
+
+#bird img{
+    width: 100%;
+    margin-top: 5vw;
+    object-position: 300px;
+    
+} 
+
+
+/* @media (min-width: 47.5em)
+.page-body--process section.service-list {
+    background-position: 200% 100%,0 50%;
+    background-size: 85% auto,20% auto;
+    margin-top: 5vw;
+} */
