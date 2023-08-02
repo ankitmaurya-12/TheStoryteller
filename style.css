@@ -166,13 +166,6 @@ html , body{
     background-color: #F7F6EE;
 }
 
- /* @media (min-width: 47.5em) {
-#section>img{
-    background-position:200% 100%,0 50%;
-    background-size: 85% auto,20% auto;
-    margin-top: 5vw
-    }
-} */
 
 #bird img{
     width: 100%;
@@ -187,4 +180,56 @@ html , body{
     background-position: 200% 100%,0 50%;
     background-size: 85% auto,20% auto;
     margin-top: 5vw;
+} */
+
+#pr{
+    width: 62%;
+    height: 60vh;
+    /* background-color: rgb(255, 145, 0); */
+    display: flex;
+    padding-top: 10vh;
+    flex-direction: column;
+    padding-right: 8vw;
+    margin-left: 35%;
+}
+#pr h1{
+    font-family: "Playfair";
+    font-size: 50px;
+    font-weight: 400;  
+}
+#pr p{
+    font-family: "Playfair";
+    font-size: 22px;
+    margin: 0px 0px;
+    width: 80%;
+}
+
+ol{
+    width: 85%;
+    display: flex;
+    list-style-type: none;
+    padding-left: 11%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+li{
+padding-left: 7%;
+}
+
+/* #process-list{
+        width: 100%;
+        margin-top: 10px 10px;
+        display: flex;
+        padding: 5%;
+        justify-content: space-between;
+
+} */
+
+/* #process-list #number{
+    background-image: url(https://www.snapsound.com/static/img/number3.svg);
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: 40% 100%;
+  
 } */
