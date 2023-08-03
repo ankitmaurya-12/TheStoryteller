@@ -205,7 +205,7 @@ html , body{
 }
 
 ol{
-    width: 85%;
+    width: 90%;
     display: flex;
     list-style-type: none;
     padding-left: 11%;
@@ -214,7 +214,45 @@ ol{
 }
 
 li{
-padding-left: 7%;
+    flex: 3;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+}
+
+li h2{
+    font-size: 23px;
+    font-family: "Playfair";
+    font-weight: 800; 
+    border-top: 3px solid #232323;
+    padding: 5% 0%;
+}
+
+li p{
+    /* border-top: 2px solid rgb(0, 0, 0);
+    margin-bottom: 15%;
+    padding-bottom: 10%;
+    font-size: 15px; */
+
+    font-family: "Playfair";
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -.1px;
+    width: 100%;
+    text-align: left;
+    margin-top: 1.5em;
+    margin-left: auto;
+    border-bottom: 1px solid #232323;
+    padding-bottom: 1.5em;
+    
+    /* display: block; */
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+}
+
+#a{
+    border: none;
 }
 
 /* #process-list{
@@ -223,7 +261,7 @@ padding-left: 7%;
         display: flex;
         padding: 5%;
         justify-content: space-between;
-
+        
 } */
 
 /* #process-list #number{
@@ -231,5 +269,96 @@ padding-left: 7%;
     background-repeat: no-repeat;
     height: 50%;
     background-size: 40% 100%;
-  
+    
 } */
+
+#collage{
+    width: 100%;
+    
+}
+
+#collage img{
+    width: 100%;
+}
+
+#watch{
+    width: 100%;
+    display: flex;
+    margin-top: 15vw;
+    justify-content: flex-start;
+}
+
+#watch #wvideo{
+    width: 55%;
+    margin: 0px;
+}
+
+#watch #wvideo img{
+    width: 100%;
+}
+
+#wvideo button{
+    padding: 7px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left:15px;
+    font-weight: 500;
+    position: relative;
+    top: -30%;
+    font-size: 20px;
+    font-family: "Playfair";
+    transition: background-color 0.3s;
+
+    /* left: 50%; */
+    /* margin-left: -80px; */
+    /* margin-top: 2px; */
+    /* padding: 0.8em 1.5em; */
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer; */
+}
+
+/* #wvideo button img{
+    width: 1vw;
+    height: 5vh;
+} */
+
+#wvideo button:hover{
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+}
+
+#watch #wtext{
+    width: 25%;
+    margin-left: 50px;
+}
+
+#wtext h2{
+    font-size: 32px;
+    font-family: "Playfair";
+    font-weight: 500; 
+    border-bottom: 2px solid #232323;
+    padding: 0% 0%;   
+    padding-bottom: 20px;
+}
+
+#wtext p{
+    font-family: "Playfair";
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: -.1px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
